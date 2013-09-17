@@ -1,8 +1,13 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background: #000000 url(../images/bg-bottom.png) no-repeat;
+  background-size: 100%;
+}
+
 body > div {
   width: 950px;
   margin: 0 auto;
   background-color:#d4deeb;
-  height:200px;
 }
 
 #moonarticle {
@@ -17,14 +22,14 @@ body > div {
 header{
 width:950px;
 height:144px;
-background: #fff;
+background: #15253A;
 }
 
 nav{
 float: left;
-background: #ccc;
+background: #36223E;
 width:200px;
-height: 600px;
+height: auto;
 }
 
 body > div > section > div {
@@ -35,27 +40,100 @@ body > div > section > div {
   margin-right: 9px;
 }
 
-body > div > section > div > article {
+body > div > section > div > article:nth-of-type(1) {
+  width: 714px;
   margin: 0 auto;
   border: 1px solid gray;
-  margin: 3px;
+}
+
+body > div > section > div > article:nth-of-type(1) > img {
+  margin: 0 auto;
+  width: 704px;
+  height: 352px;
   padding: 5px;
 }
 
-body > div > section > div > article > img {
-  margin: 0 auto;
-}
-
-body > div > section > div >article > p {
-  font-family: Helvetica, Arial, sans-serif;
+body > div > section > div > article:nth-of-type(1) > p {
   font-size: 11px;
   margin: 5px;
   color: #165AAE;
 }
 
+#moonarticle > div > article > ol > article {
+  width: 236px;
+  border: 1px solid gray;
+  float: right;
+}
+
+#moonarticle > div > article > ol {
+  float: left;
+}
+
+#moonarticle > div > article > ol > article > img {
+  margin: 0 auto;
+  width: 224px;
+  padding: 5px;
+}
+
+#moonarticle > div > article > ol > article > p {
+  font-size: 11px;
+  margin: 5px;
+  color: #165AAE;
+}
+
+.subtitle {
+  color: #01358A;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+body > div > section > div > article:nth-of-type(2) {
+  width: 714px;
+  margin: 0 auto;
+}
+
+body > div > section > div > article:nth-of-type(2) > ol > li {
+  font-size: 13px;
+  color: #000000;
+}
+
+nav ul{
+  padding-left: 0px;
+}
+
+nav ul li{
+  color: #937B9E;
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 12px;
+  padding: 5px 15px;
+  text-align: left;
+  list-style: none;
+}
+
+nav ul li a{
+  color: #937B9E;
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 12px;
+  padding: 5px 15px;
+  text-align: left;
+  list-style: none;
+  text-decoration: none;
+}
+
+nav ul li a:hover{
+  color: #937B9E;
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 12px;
+  padding: 5px 15px;
+  text-align: left;
+  list-style: none;
+  text-decoration: none;
+}
+
 #wrap{
 	width: 732px;
-	float:left;
+	float:right;
 	margin-left: 9px;
 	margin-right: 9px;
 	background-color: #fff;
@@ -86,13 +164,12 @@ body > div > section > div >article > p {
 	font-weight: bold;
 	border-top: none;
 	border-bottom: none;
-
-}	
+}
 
 #wrap > ul > li:nth-child(2){
 
 	border-top: none;
-}	
+}
 
 
 #wrap > ul > li{
@@ -113,7 +190,7 @@ body > div > section > div >article > p {
 
 #wrap > ul > li > #graybold{
 	color:#a2a2a2;
-	font-weight: bold;	
+	font-weight: bold;
 }
 
 #wrap > ul > li > img{
@@ -121,4 +198,3 @@ body > div > section > div >article > p {
 	height: 11px;
 	vertical-align: middle;
 }
-
