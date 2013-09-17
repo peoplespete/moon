@@ -3,3 +3,16 @@ body > div {
   margin: 0 auto;
   background-color:#d4deeb;
 }
+
+header{
+width:950px;
+height:144px;
+background: #fff;
+}
+
+nav{
+float: left;
+background: #ccc;
+width:200px;
+height: 600px;
+}
