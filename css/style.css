@@ -1,3 +1,8 @@
+body{
+  background: url(../images/bg-bottom.png) repeat;
+
+}
+
 body > div {
   width: 950px;
   margin: 0 auto;
@@ -16,12 +21,47 @@ body > div {
 header{
 width:950px;
 height:144px;
-background: #fff;
+background: #15253A;
 }
 
 nav{
 float: left;
-background: #ccc;
+background: #36223E;
 width:200px;
-height: 600px;
+height: auto;
+padding: none;
+}
+
+nav ul{
+  padding-left: 0px;
+}
+
+nav ul li{
+  color: #937B9E;
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 12px;
+  padding: 5px 15px;
+  text-align: left;
+  list-style: none;
+}
+
+nav ul li a{
+  color: #937B9E;
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 12px;
+  padding: 5px 15px;
+  text-align: left;
+  list-style: none;
+  text-decoration: none;
+}
+
+nav ul li a:hover{
+  color: #937B9E;
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 12px;
+  padding: 5px 15px;
+  text-align: left;
+  list-style: none;
+  text-decoration: none;
+
 }
