@@ -1,13 +1,23 @@
-body{
-  background: url(../images/bg-bottom.png) repeat;
+
+@import url(http://fonts.googleapis.com/css?family=PT+Sans);
+
+body {
   font-family: Helvetica, Arial, sans-serif;
+  background: #000000 url(../images/bg-bottom.png) no-repeat;
+  background-size: 100%;
+
 }
 
 body > div {
   width: 950px;
   margin: 0 auto;
+}
+
+#mainbody {
+  width: 750px;
   background-color:#d4deeb;
-  height:200px;
+  border-top-right-radius: 20px;
+  display: inline-block;
 }
 
 #moonarticle {
@@ -23,6 +33,49 @@ header{
 width:950px;
 height:144px;
 background: #15253A;
+}
+
+
+/*********************Begin Overview Section****
+*************************************************/
+#overview {
+  width: 750px;
+  background-color: #ffffff;
+  border-top-right-radius: 20px;
+  float: left;
+}
+
+#overview > p {
+  font-family: 'PT Sans', sans-serif;
+  letter-spacing: 1px;
+  font-size: 14px;
+  font-weight: normal;
+  color: #000000;
+  border-bottom: 1px solid #d4deeb;
+  padding-bottom: 9px;
+  margin: 14px 9px 0px 9px;
+}
+
+#overview > h2 {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  padding-right: 12px;
+  padding-left: 12px;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  color: #000000;
+  margin: 0px;
+}
+
+#overview > p > a {
+  color: #396DC0;
+  text-decoration: none;
+}
+
+#overview > p > a:hover {
+  color: #396DC0;
+  text-decoration: underline;
 }
 
 nav{
@@ -42,6 +95,7 @@ nav ul li{
   font-size: 12px;
   text-align: left;
   list-style: none;
+
 }
 
 nav ul li a{
@@ -67,7 +121,7 @@ nav ul li a:hover{
   display: inline-block;
   width: 170px;
   height:30px;
-  padding: 0px 15px;
+  padding: 0px 15px 0px 0px;
   float: left;
 }
 
@@ -173,7 +227,7 @@ nav ul li a:hover{
   background-image: url(../images/leftnav_educ_on.jpg);
 }
 
-#search {
+#searchform {
     background-image: url("../images/leftnav_searchbox_bg.png");
     background-repeat: no-repeat;
     height: 28px;
@@ -182,14 +236,19 @@ nav ul li a:hover{
 }
 
 #follow{
-  width: 200px
+  width: 170px
 }
 
 nav > img{
 
 }
 
-body > div > section > div {
+/*********************End Overview Section****
+*************************************************/
+
+/****************Begin MoonArticle Section*****
+**********************************************/
+#mainbody > section > div {
   width: 732px;
   margin: 0 auto;
   background-color: white;
@@ -197,20 +256,42 @@ body > div > section > div {
   margin-right: 9px;
 }
 
-body > div > section > div > article:nth-of-type(1) {
+#mainbody > section > div > article:nth-of-type(1) {
   width: 714px;
   margin: 0 auto;
   border: 1px solid gray;
 }
 
-body > div > section > div > article:nth-of-type(1) > img {
+#mainbody > section > div > article:nth-of-type(1) > img {
   margin: 0 auto;
   width: 704px;
   height: 352px;
   padding: 5px;
 }
 
-body > div > section > div > article:nth-of-type(1) > p {
+#mainbody > section > div > article:nth-of-type(1) > p {
+  font-size: 11px;
+  margin: 5px;
+  color: #165AAE;
+}
+
+#moonarticle > div > article > ol > article {
+  width: 236px;
+  border: 1px solid gray;
+  float: right;
+}
+
+#moonarticle > div > article > ol {
+  float: left;
+}
+
+#moonarticle > div > article > ol > article > img {
+  margin: 0 auto;
+  width: 224px;
+  padding: 5px;
+}
+
+#moonarticle > div > article > ol > article > p {
   font-size: 11px;
   margin: 5px;
   color: #165AAE;
@@ -223,19 +304,65 @@ body > div > section > div > article:nth-of-type(1) > p {
   margin-top: 5px;
 }
 
-body > div > section > div > article:nth-of-type(2) {
+#mainbody > section > div > article:nth-of-type(2) {
   width: 714px;
   margin: 0 auto;
 }
 
-body > div > section > div > article:nth-of-type(2) > ol > li {
+#mainbody > section > div > article:nth-of-type(2) > ol > li {
   font-size: 13px;
   color: #000000;
 }
 
+#moonarticle > div > article > #readmore {
+  text-align: center;
+}
+
+#moonarticle > div > article > #readmore > img {
+  vertical-align: center;
+}
+/*********************End MoonArticle Section****
+*************************************************/
+
+
+nav ul{
+  padding-left: 0px;
+}
+
+nav ul li{
+  color: #937B9E;
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 12px;
+  padding: 5px 15px;
+  text-align: left;
+  list-style: none;
+}
+
+nav ul li a{
+  color: #937B9E;
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 12px;
+  padding: 5px 15px;
+  text-align: left;
+  list-style: none;
+  text-decoration: none;
+}
+
+nav ul li a:hover{
+  color: #937B9E;
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 12px;
+  padding: 5px 15px;
+  text-align: left;
+  list-style: none;
+  text-decoration: none;
+}
+/**********Begin AdditionalFacts Section******************
+*********************************************************/
+
 #wrap{
 	width: 732px;
-	float:left;
+	float:right;
 	margin-left: 9px;
 	margin-right: 9px;
 	background-color: #fff;
@@ -255,21 +382,40 @@ body > div > section > div > article:nth-of-type(2) > ol > li {
 	padding: 0;
 	background-color:#d4deeb;
 	width:352px;
+	margin-left:8px;
 }
 
 #wrap > ul > li:first-child{
-	background: url("../images/bg-header-gold.png") no-repeat;
 	color:#fff;
 	padding:5px;
 	font-size: 12px;
 	font-weight: bold;
 	border-top: none;
 	border-bottom: none;
-
 }
 
-#wrap > ul > li:nth-child(2){
+#wrap > ul > .gold{
+    background: url("../images/bg-header-gold.png") no-repeat;
+}
 
+#wrap > ul > .blue{
+    background: url("../images/bg-header-blue.png") no-repeat;
+}
+
+#wrap > ul > .red{
+    background: url("../images/bg-header-red.png") no-repeat;
+}
+#wrap > ul > li>.name{
+    font-size: 14px;
+    color:#003680;
+    font-weight: bold;
+    float:left;
+}
+
+#wrap > ul > li>#pic{
+    float:left;
+}
+#wrap > ul > li:nth-child(2){
 	border-top: none;
 }
 
@@ -280,17 +426,17 @@ body > div > section > div > article:nth-of-type(2) > ol > li {
 	padding:3px;
 }
 
-#wrap > ul > li > #blackbold{
+#wrap > ul > li > .blackbold{
 	color:#000;
 	font-weight: bold;
 }
 
-#wrap > ul > li > #bluebold{
+#wrap > ul > li > .bluebold{
 	color:#003680;
 	font-weight: bold;
 }
 
-#wrap > ul > li > #graybold{
+#wrap > ul > li > .graybold{
 	color:#a2a2a2;
 	font-weight: bold;
 }
@@ -307,3 +453,18 @@ footer{
   background:url(/images/bg-footer.png);
   ;
 }
+
+#wrap > ul > li > .date{
+	float:left;
+    text-align: right;
+    padding-bottom: 5px;
+    padding-right: 4px;
+    color:#000;
+    font-weight: bold;
+}
+
+
+/**********End AdditionalFacts Section******************
+*********************************************************/
+
+
