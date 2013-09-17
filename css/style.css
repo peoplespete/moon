@@ -157,7 +157,6 @@ nav ul li a:hover{
 }
 
 #wrap > ul > li:first-child{
-	background: url("../images/bg-header-gold.png") no-repeat;
 	color:#fff;
 	padding:5px;
 	font-size: 12px;
@@ -166,6 +165,27 @@ nav ul li a:hover{
 	border-bottom: none;
 }
 
+#wrap > ul > .gold{
+    background: url("../images/bg-header-gold.png") no-repeat;
+}
+
+#wrap > ul > .blue{
+    background: url("../images/bg-header-blue.png") no-repeat;
+}
+
+#wrap > ul > .red{
+    background: url("../images/bg-header-red.png") no-repeat;
+}
+#wrap > ul > li>.name{
+    font-size: 14px;
+    color:#003680;
+    font-weight: bold;
+    float:left;
+}
+
+#wrap > ul > li>#pic{
+    float:left;
+}
 #wrap > ul > li:nth-child(2){
 
 	border-top: none;
@@ -178,17 +198,17 @@ nav ul li a:hover{
 	padding:3px;
 }
 
-#wrap > ul > li > #blackbold{
+#wrap > ul > li > .blackbold{
 	color:#000;
 	font-weight: bold;
 }
 
-#wrap > ul > li > #bluebold{
+#wrap > ul > li > .bluebold{
 	color:#003680;
 	font-weight: bold;
 }
 
-#wrap > ul > li > #graybold{
+#wrap > ul > li > .graybold{
 	color:#a2a2a2;
 	font-weight: bold;
 }
@@ -198,3 +218,14 @@ nav ul li a:hover{
 	height: 11px;
 	vertical-align: middle;
 }
+
+#wrap > ul > li > .date{
+	float:left;
+    text-align: right;
+    padding-bottom: 5px;
+    padding-right: 4px;
+    color:#000;
+    font-weight: bold;
+}
+
+
