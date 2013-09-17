@@ -5,6 +5,19 @@ body > div {
   height:200px;
 }
 
+header{
+width:950px;
+height:144px;
+background: #fff;
+}
+
+nav{
+float: left;
+background: #ccc;
+width:200px;
+height: 600px;
+}
+
 #wrap{
 	width: 732px;
 	margin: 0 auto;
@@ -15,6 +28,7 @@ body > div {
 #wrap > img{
 	margin: 0 auto;
 }
+
 #wrap > ul{
 	list-style: none;
 	background-color:#d4deeb;
@@ -47,3 +61,6 @@ body > div {
 	color:#a2a2a2;
 	font-weight: bold;	
 }
+
+
+
