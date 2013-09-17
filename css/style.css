@@ -1,3 +1,7 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
 body > div {
   width: 950px;
   margin: 0 auto;
@@ -34,20 +38,38 @@ body > div > section > div {
   margin-right: 9px;
 }
 
-body > div > section > div > article {
+body > div > section > div > article:nth-of-type(1) {
+  width: 714px;
   margin: 0 auto;
   border: 1px solid gray;
-  margin: 3px;
+}
+
+body > div > section > div > article:nth-of-type(1) > img {
+  margin: 0 auto;
+  width: 704px;
+  height: 352px;
   padding: 5px;
 }
 
-body > div > section > div > article > img {
-  margin: 0 auto;
-}
-
-body > div > section > div >article > p {
-  font-family: Helvetica, Arial, sans-serif;
+body > div > section > div > article:nth-of-type(1) > p {
   font-size: 11px;
   margin: 5px;
   color: #165AAE;
+}
+
+.subtitle {
+  color: #01358A;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+body > div > section > div > article:nth-of-type(2) {
+  width: 714px;
+  margin: 0 auto;
+}
+
+body > div > section > div > article:nth-of-type(2) > ol > li {
+  font-size: 13px;
+  color: #000000;
 }
