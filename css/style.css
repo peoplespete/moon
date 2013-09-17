@@ -1,9 +1,11 @@
+
 @import url(http://fonts.googleapis.com/css?family=PT+Sans);
 
 body {
   font-family: Helvetica, Arial, sans-serif;
   background: #000000 url(../images/bg-bottom.png) no-repeat;
   background-size: 100%;
+
 }
 
 body > div {
@@ -39,6 +41,7 @@ background: #36223E;
 width:200px;
 height: auto;
 }
+
 
 /*********************Begin Overview Section****
 *************************************************/
@@ -80,6 +83,154 @@ height: auto;
 #overview > p > a:hover {
   color: #396DC0;
   text-decoration: underline;
+}
+nav ul{
+  padding: 0px;
+}
+
+nav ul li{
+  color: #937B9E;
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 12px;
+  text-align: left;
+  list-style: none;
+}
+
+nav ul li a{
+  color: #937B9E;
+  text-decoration: none;
+  padding: 5px 15px;
+}
+
+nav ul li a:hover{
+  color: #fff;
+}
+
+.pad{
+  padding: 5px 15px;
+}
+
+.selcolor{
+  color: #fff;
+}
+/*buttons ids and hoverstates*/
+#homebtn {
+  background-image: url(../images/leftnav_home_off.jpg);
+  display: inline-block;
+  width: 170px;
+  height:30px;
+  padding: 0px 15px;
+  float: left;
+}
+
+#homebtn:hover {
+  background-image: url(../images/leftnav_home_on.jpg);padding:
+}
+
+#newsbtn {
+  background-image: url(../images/leftnav_news_off.jpg);
+  display: inline-block;
+  width: 170px;
+  height:30px;
+  padding: 0px 15px;
+  float:left;
+}
+
+#newsbtn:hover {
+  background-image: url(../images/leftnav_news_on.jpg);
+}
+
+#planetsbtn {
+  background-image: url(../images/leftnav_planets_sel.jpg);
+  display: inline-block;
+  width: 170px;
+  height:30px;
+  padding: 0px 15px;
+}
+
+#missionbtn {
+  background-image: url(../images/leftnav_missions_off.jpg);
+  display: inline-block;
+  width: 170px;
+  height:30px;
+  float:left;
+  padding: 0px 15px;
+}
+
+#missionbtn:hover {
+  background-image: url(../images/leftnav_missions_on.jpg);
+}
+#sciencebtn {
+  background-image: url(../images/leftnav_scitech_off.jpg);
+  display: inline-block;
+  width: 170px;
+  height:30px;
+  float:left;
+  padding: 0px 15px;
+}
+
+#sciencebtn:hover {
+  background-image: url(../images/leftnav_scitech_on.jpg);
+}
+
+#multibtn {
+  background-image: url(../images/leftnav_multimedia_off.jpg);
+  display: inline-block;
+  width: 170px;
+  height:30px;
+  float:left;
+  padding: 0px 15px;
+}
+
+#multibtn:hover {
+  background-image: url(../images/leftnav_multimedia_on.jpg);
+}
+
+#peoplebtn {
+  background-image: url(../images/leftnav_people_off.jpg);
+  display: inline-block;
+  width: 170px;
+  height:30px;
+  float:left;
+  padding: 0px 15px;
+}
+
+#peoplebtn:hover {
+  background-image: url(../images/leftnav_people_on.jpg);
+}
+
+#kidsbtn {
+  background-image: url(../images/leftnav_kids_off.jpg);
+  display: inline-block;
+  width: 170px;
+  height:30px;
+  float: left;
+  padding: 0px 15px;
+}
+
+#kidsbtn:hover {
+  background-image: url(../images/leftnav_kid_on.jpg);
+}
+
+#edbtn {
+  background-image: url(../images/leftnav_educ_off.jpg);
+  display: inline-block;
+  width: 170px;
+  height:30px;
+  float:left;
+  padding: 0px 15px;
+}
+
+#edbtn:hover {
+  background-image: url(../images/leftnav_educ_on.jpg);
+}
+
+.searchbox2 {
+    background-image: url("../images/leftnav_searchbox_bg.png");
+    background-repeat: no-repeat;
+    height: 28px;
+    padding-top: 5px !important;
+    width: 155px;
 }
 
 
@@ -199,6 +350,7 @@ nav ul li a:hover{
 }
 /**********Begin AdditionalFacts Section******************
 *********************************************************/
+
 #wrap{
 	width: 732px;
 	float:right;
@@ -298,3 +450,4 @@ nav ul li a:hover{
 
 /**********End AdditionalFacts Section******************
 *********************************************************/
+
