@@ -1,5 +1,5 @@
 body > div {
-  width: 960px;
+  width: 950px;
   margin: 0 auto;
   background-color:#d4deeb;
 }
@@ -11,4 +11,17 @@ body > div {
 
 .clear {
   clear: both;
+}
+
+header{
+width:950px;
+height:144px;
+background: #fff;
+}
+
+nav{
+float: left;
+background: #ccc;
+width:200px;
+height: 600px;
 }
