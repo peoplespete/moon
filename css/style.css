@@ -30,48 +30,49 @@ float: left;
 background: #36223E;
 width:200px;
 height: auto;
-padding: none;
 }
 
 nav ul{
-  padding-left: 0px;
-}
-nav ul a{
-  padding-left: 0px;
+  padding: 0px;
 }
 
 nav ul li{
   color: #937B9E;
   font-family: Helvetica,Arial,sans-serif;
   font-size: 12px;
-  padding: 5px 0px 5px 0px;
   text-align: left;
   list-style: none;
 }
 
-
 nav ul li a{
   color: #937B9E;
   text-decoration: none;
-  padding: 0px 15px 0px 15px;
+  padding: 5px 15px;
 }
 
 nav ul li a:hover{
   color: #fff;
-
 }
 
-/*buttons ids and hoverstates*/
+.pad{
+  padding: 5px 15px;
+}
 
+.selcolor{
+  color: #fff;
+}
+/*buttons ids and hoverstates*/
 #homebtn {
   background-image: url(../images/leftnav_home_off.jpg);
   display: inline-block;
   width: 170px;
   height:30px;
+  padding: 0px 15px;
+  float: left;
 }
 
 #homebtn:hover {
-  background-image: url(../images/leftnav_home_on.jpg);
+  background-image: url(../images/leftnav_home_on.jpg);padding:
 }
 
 #newsbtn {
@@ -79,6 +80,8 @@ nav ul li a:hover{
   display: inline-block;
   width: 170px;
   height:30px;
+  padding: 0px 15px;
+  float:left;
 }
 
 #newsbtn:hover {
@@ -90,6 +93,7 @@ nav ul li a:hover{
   display: inline-block;
   width: 170px;
   height:30px;
+  padding: 0px 15px;
 }
 
 #missionbtn {
@@ -97,6 +101,8 @@ nav ul li a:hover{
   display: inline-block;
   width: 170px;
   height:30px;
+  float:left;
+  padding: 0px 15px;
 }
 
 #missionbtn:hover {
@@ -107,26 +113,34 @@ nav ul li a:hover{
   display: inline-block;
   width: 170px;
   height:30px;
+  float:left;
+  padding: 0px 15px;
 }
 
 #sciencebtn:hover {
   background-image: url(../images/leftnav_scitech_on.jpg);
 }
+
 #multibtn {
-  background-image: url(../images/leftnav_multimeida_off.jpg);
+  background-image: url(../images/leftnav_multimedia_off.jpg);
   display: inline-block;
   width: 170px;
   height:30px;
+  float:left;
+  padding: 0px 15px;
 }
 
 #multibtn:hover {
   background-image: url(../images/leftnav_multimedia_on.jpg);
 }
+
 #peoplebtn {
   background-image: url(../images/leftnav_people_off.jpg);
   display: inline-block;
   width: 170px;
   height:30px;
+  float:left;
+  padding: 0px 15px;
 }
 
 #peoplebtn:hover {
@@ -138,6 +152,8 @@ nav ul li a:hover{
   display: inline-block;
   width: 170px;
   height:30px;
+  float: left;
+  padding: 0px 15px;
 }
 
 #kidsbtn:hover {
@@ -149,10 +165,20 @@ nav ul li a:hover{
   display: inline-block;
   width: 170px;
   height:30px;
+  float:left;
+  padding: 0px 15px;
 }
 
 #edbtn:hover {
   background-image: url(../images/leftnav_educ_on.jpg);
+}
+
+.searchbox2 {
+    background-image: url("../images/leftnav_searchbox_bg.png");
+    background-repeat: no-repeat;
+    height: 28px;
+    padding-top: 5px !important;
+    width: 155px;
 }
 
 body > div > section > div {
