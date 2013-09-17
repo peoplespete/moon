@@ -55,17 +55,24 @@ body > div > section > div >article > p {
 
 #wrap{
 	width: 732px;
-	margin: 0 auto;
+	float:left;
+	margin-left: 9px;
+	margin-right: 9px;
 	background-color: #fff;
 	/*outline: 1px solid blue;*/
 }
 
 #wrap > img{
-	margin: 0 auto;
+	margin-left: 8px;
+	margin-right: 8px;
+	width:716px;
+	height:60px;
 }
 
 #wrap > ul{
 	list-style: none;
+	list-style-type: none;
+	padding: 0;
 	background-color:#d4deeb;
 	width:352px;
 }
@@ -75,11 +82,22 @@ body > div > section > div >article > p {
 	color:#fff;
 	padding:5px;
 	font-size: 12px;
+	font-weight: bold;
+	border-top: none;
+	border-bottom: none;
+
 }	
+
+#wrap > ul > li:nth-child(2){
+
+	border-top: none;
+}	
+
 
 #wrap > ul > li{
 	border: 1px solid white;
 	font-size: 11px;
+	padding:3px;
 }
 
 #wrap > ul > li > #blackbold{
@@ -97,4 +115,9 @@ body > div > section > div >article > p {
 	font-weight: bold;	
 }
 
+#wrap > ul > li > img{
+	width: 19px;
+	height: 11px;
+	vertical-align: middle;
+}
 
