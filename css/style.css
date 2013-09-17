@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans);
+
 body {
   font-family: Helvetica, Arial, sans-serif;
   background: #000000 url(../images/bg-bottom.png) no-repeat;
@@ -7,7 +9,13 @@ body {
 body > div {
   width: 950px;
   margin: 0 auto;
+}
+
+#mainbody {
+  width: 750px;
   background-color:#d4deeb;
+  border-top-right-radius: 20px;
+  display: inline-block;
 }
 
 #moonarticle {
@@ -32,7 +40,55 @@ width:200px;
 height: auto;
 }
 
-body > div > section > div {
+/*********************Begin Overview Section****
+*************************************************/
+#overview {
+  width: 750px;
+  background-color: #ffffff;
+  border-top-right-radius: 20px;
+  float: left;
+}
+
+#overview > p {
+  font-family: 'PT Sans', sans-serif;
+  letter-spacing: 1px;
+  font-size: 14px;
+  font-weight: normal;
+  color: #000000;
+  border-bottom: 1px solid #d4deeb;
+  padding-bottom: 9px;
+  margin: 14px 9px 0px 9px;
+}
+
+#overview > h2 {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  padding-right: 12px;
+  padding-left: 12px;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  color: #000000;
+  margin: 0px;
+}
+
+#overview > p > a {
+  color: #396DC0;
+  text-decoration: none;
+}
+
+#overview > p > a:hover {
+  color: #396DC0;
+  text-decoration: underline;
+}
+
+
+/*********************End Overview Section****
+*************************************************/
+
+/****************Begin MoonArticle Section*****
+**********************************************/
+#mainbody > section > div {
   width: 732px;
   margin: 0 auto;
   background-color: white;
@@ -40,20 +96,20 @@ body > div > section > div {
   margin-right: 9px;
 }
 
-body > div > section > div > article:nth-of-type(1) {
+#mainbody > section > div > article:nth-of-type(1) {
   width: 714px;
   margin: 0 auto;
   border: 1px solid gray;
 }
 
-body > div > section > div > article:nth-of-type(1) > img {
+#mainbody > section > div > article:nth-of-type(1) > img {
   margin: 0 auto;
   width: 704px;
   height: 352px;
   padding: 5px;
 }
 
-body > div > section > div > article:nth-of-type(1) > p {
+#mainbody > section > div > article:nth-of-type(1) > p {
   font-size: 11px;
   margin: 5px;
   color: #165AAE;
@@ -88,15 +144,26 @@ body > div > section > div > article:nth-of-type(1) > p {
   margin-top: 5px;
 }
 
-body > div > section > div > article:nth-of-type(2) {
+#mainbody > section > div > article:nth-of-type(2) {
   width: 714px;
   margin: 0 auto;
 }
 
-body > div > section > div > article:nth-of-type(2) > ol > li {
+#mainbody > section > div > article:nth-of-type(2) > ol > li {
   font-size: 13px;
   color: #000000;
 }
+
+#moonarticle > div > article > #readmore {
+  text-align: center;
+}
+
+#moonarticle > div > article > #readmore > img {
+  vertical-align: center;
+}
+/*********************End MoonArticle Section****
+*************************************************/
+
 
 nav ul{
   padding-left: 0px;
@@ -130,7 +197,8 @@ nav ul li a:hover{
   list-style: none;
   text-decoration: none;
 }
-
+/**********Begin AdditionalFacts Section******************
+*********************************************************/
 #wrap{
 	width: 732px;
 	float:right;
@@ -187,7 +255,6 @@ nav ul li a:hover{
     float:left;
 }
 #wrap > ul > li:nth-child(2){
-
 	border-top: none;
 }
 
@@ -229,3 +296,5 @@ nav ul li a:hover{
 }
 
 
+/**********End AdditionalFacts Section******************
+*********************************************************/
