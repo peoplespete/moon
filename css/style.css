@@ -173,12 +173,20 @@ nav ul li a:hover{
   background-image: url(../images/leftnav_educ_on.jpg);
 }
 
-.searchbox2 {
+#search {
     background-image: url("../images/leftnav_searchbox_bg.png");
     background-repeat: no-repeat;
     height: 28px;
-    padding-top: 5px !important;
+    padding-top: 5px ;
     width: 155px;
+}
+
+#follow{
+  width: 200px
+}
+
+nav > img{
+
 }
 
 body > div > section > div {
@@ -293,3 +301,9 @@ body > div > section > div > article:nth-of-type(2) > ol > li {
 	vertical-align: middle;
 }
 
+footer{
+  width: 950px;
+  height: 200px;
+  background:url(/images/bg-footer.png);
+  ;
+}
