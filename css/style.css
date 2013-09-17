@@ -1,8 +1,17 @@
 body > div {
-  width: 960px;
+  width: 950px;
   margin: 0 auto;
   background-color:#d4deeb;
   height:200px;
+}
+
+#moonarticle {
+  width: 750px;
+  float: left;
+}
+
+.clear {
+  clear: both;
 }
 
 header{
@@ -16,6 +25,32 @@ float: left;
 background: #ccc;
 width:200px;
 height: 600px;
+}
+
+body > div > section > div {
+  width: 732px;
+  margin: 0 auto;
+  background-color: white;
+  margin-left: 9px;
+  margin-right: 9px;
+}
+
+body > div > section > div > article {
+  margin: 0 auto;
+  border: 1px solid gray;
+  margin: 3px;
+  padding: 5px;
+}
+
+body > div > section > div > article > img {
+  margin: 0 auto;
+}
+
+body > div > section > div >article > p {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 11px;
+  margin: 5px;
+  color: #165AAE;
 }
 
 #wrap{
@@ -61,6 +96,5 @@ height: 600px;
 	color:#a2a2a2;
 	font-weight: bold;	
 }
-
 
 
