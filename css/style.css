@@ -1,6 +1,6 @@
 body{
   background: url(../images/bg-bottom.png) repeat;
-
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 body > div {
@@ -35,33 +35,165 @@ padding: none;
 nav ul{
   padding-left: 0px;
 }
+nav ul a{
+  padding-left: 0px;
+}
 
 nav ul li{
   color: #937B9E;
   font-family: Helvetica,Arial,sans-serif;
   font-size: 12px;
-  padding: 5px 15px;
+  padding: 5px 0px 5px 0px;
   text-align: left;
   list-style: none;
 }
+
 
 nav ul li a{
   color: #937B9E;
-  font-family: Helvetica,Arial,sans-serif;
-  font-size: 12px;
-  padding: 5px 15px;
-  text-align: left;
-  list-style: none;
   text-decoration: none;
+  padding: 0px 15px 0px 15px;
 }
 
 nav ul li a:hover{
-  color: #937B9E;
-  font-family: Helvetica,Arial,sans-serif;
-  font-size: 12px;
-  padding: 5px 15px;
-  text-align: left;
-  list-style: none;
-  text-decoration: none;
+  color: #fff;
 
+}
+
+/*buttons ids and hoverstates*/
+
+#homebtn {
+  background-image: url(../images/leftnav_home_off.jpg);
+  display: inline-block;
+  width: 170px;
+  height:30px;
+}
+
+#homebtn:hover {
+  background-image: url(../images/leftnav_home_on.jpg);
+}
+
+#newsbtn {
+  background-image: url(../images/leftnav_news_off.jpg);
+  display: inline-block;
+  width: 170px;
+  height:30px;
+}
+
+#newsbtn:hover {
+  background-image: url(../images/leftnav_news_on.jpg);
+}
+
+#planetsbtn {
+  background-image: url(../images/leftnav_planets_sel.jpg);
+  display: inline-block;
+  width: 170px;
+  height:30px;
+}
+
+#missionbtn {
+  background-image: url(../images/leftnav_missions_off.jpg);
+  display: inline-block;
+  width: 170px;
+  height:30px;
+}
+
+#missionbtn:hover {
+  background-image: url(../images/leftnav_missions_on.jpg);
+}
+#sciencebtn {
+  background-image: url(../images/leftnav_scitech_off.jpg);
+  display: inline-block;
+  width: 170px;
+  height:30px;
+}
+
+#sciencebtn:hover {
+  background-image: url(../images/leftnav_scitech_on.jpg);
+}
+#multibtn {
+  background-image: url(../images/leftnav_multimeida_off.jpg);
+  display: inline-block;
+  width: 170px;
+  height:30px;
+}
+
+#multibtn:hover {
+  background-image: url(../images/leftnav_multimedia_on.jpg);
+}
+#peoplebtn {
+  background-image: url(../images/leftnav_people_off.jpg);
+  display: inline-block;
+  width: 170px;
+  height:30px;
+}
+
+#peoplebtn:hover {
+  background-image: url(../images/leftnav_people_on.jpg);
+}
+
+#kidsbtn {
+  background-image: url(../images/leftnav_kids_off.jpg);
+  display: inline-block;
+  width: 170px;
+  height:30px;
+}
+
+#kidsbtn:hover {
+  background-image: url(../images/leftnav_kid_on.jpg);
+}
+
+#edbtn {
+  background-image: url(../images/leftnav_educ_off.jpg);
+  display: inline-block;
+  width: 170px;
+  height:30px;
+}
+
+#edbtn:hover {
+  background-image: url(../images/leftnav_educ_on.jpg);
+}
+
+body > div > section > div {
+  width: 732px;
+  margin: 0 auto;
+  background-color: white;
+  margin-left: 9px;
+  margin-right: 9px;
+}
+
+body > div > section > div > article:nth-of-type(1) {
+  width: 714px;
+  margin: 0 auto;
+  border: 1px solid gray;
+}
+
+body > div > section > div > article:nth-of-type(1) > img {
+  margin: 0 auto;
+  width: 704px;
+  height: 352px;
+  padding: 5px;
+}
+
+body > div > section > div > article:nth-of-type(1) > p {
+  font-size: 11px;
+  margin: 5px;
+  color: #165AAE;
+}
+
+.subtitle {
+  color: #01358A;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+body > div > section > div > article:nth-of-type(2) {
+  width: 714px;
+  margin: 0 auto;
+}
+
+body > div > section > div > article:nth-of-type(2) > ol > li {
+  font-size: 13px;
+  color: #000000;
 }
