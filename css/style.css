@@ -3,3 +3,12 @@ body > div {
   margin: 0 auto;
   background-color:#d4deeb;
 }
+
+#moonarticle {
+  width: 750px;
+  float: left;
+}
+
+.clear {
+  clear: both;
+}
