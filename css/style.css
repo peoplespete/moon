@@ -1,6 +1,7 @@
 body {
   font-family: Helvetica, Arial, sans-serif;
-  background: url(../images/bg-bottom.png) repeat;
+  background: #000000 url(../images/bg-bottom.png) no-repeat;
+  background-size: 100%;
 }
 
 body > div {
@@ -53,6 +54,28 @@ body > div > section > div > article:nth-of-type(1) > img {
 }
 
 body > div > section > div > article:nth-of-type(1) > p {
+  font-size: 11px;
+  margin: 5px;
+  color: #165AAE;
+}
+
+#moonarticle > div > article > ol > article {
+  width: 236px;
+  border: 1px solid gray;
+  float: right;
+}
+
+#moonarticle > div > article > ol {
+  float: left;
+}
+
+#moonarticle > div > article > ol > article > img {
+  margin: 0 auto;
+  width: 224px;
+  padding: 5px;
+}
+
+#moonarticle > div > article > ol > article > p {
   font-size: 11px;
   margin: 5px;
   color: #165AAE;
