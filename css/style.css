@@ -403,9 +403,21 @@ nav ul li a:hover{
     float:left;
 }
 
-#wrap > ul > li>#pic{
-    float:left;
+#wrap > ul > li> #pic{
+    float:right;
+    height:120px;
+    width: 100px;
 }
+
+.lbox{
+    float:right;
+}
+
+.fright{
+    float:right;
+
+}
+
 #wrap > ul > li:nth-child(2){
 	border-top: none;
 }
