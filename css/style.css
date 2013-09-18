@@ -98,7 +98,7 @@ nav{
 float: left;
 background: #36223E;
 width:200px;
-height: 1773px;
+height: 1650px;
 }
 
 nav ul{
@@ -645,7 +645,7 @@ nav ul li a:hover{
 footer{
   width: 930px;
   height: 200px;
-  background: navy;
+  background: url(../images/bg-footer.png);
   -moz-box-shadow: 0px 1px 27px #000000;
   -webkit-box-shadow: 0px 1px 27px #000000;
   box-shadow: 0px 1px 27px #000000;
