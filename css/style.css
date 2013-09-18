@@ -367,7 +367,26 @@ nav ul li a:hover{
 	height:60px;
 }
 
-#wrap > ul{
+#mainbody > section > #lstuff{
+    float:left;
+    display:inline-block;
+    width: 352px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px;
+}
+
+
+#mainbody > section > #rstuff{
+    float:left;
+    display:inline-block;
+    width: 352px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px;
+}
+
+#wrap > div > ul{
 	list-style: none;
 	list-style-type: none;
 	padding: 0;
@@ -376,7 +395,7 @@ nav ul li a:hover{
 	margin-left:8px;
 }
 
-#wrap > ul > li:first-child{
+#wrap > div > ul > li:first-child{
 	color:#fff;
 	padding:5px;
 	font-size: 12px;
@@ -385,25 +404,29 @@ nav ul li a:hover{
 	border-bottom: none;
 }
 
-#wrap > ul > .gold{
+#wrap > div > ul > .gold{
     background: url("../images/bg-header-gold.png") no-repeat;
 }
 
-#wrap > ul > .blue{
+#wrap > div > ul > .blue{
     background: url("../images/bg-header-blue.png") no-repeat;
 }
 
-#wrap > ul > .red{
+#wrap > div > ul > .red{
     background: url("../images/bg-header-red.png") no-repeat;
 }
-#wrap > ul > li>.name{
+
+#wrap > div > ul > .green{
+    background: url("../images/bg-header-green.png") no-repeat;
+}
+#wrap > div > ul > li>.name{
     font-size: 14px;
     color:#003680;
     font-weight: bold;
     float:left;
 }
 
-#wrap > ul > li> #pic{
+#wrap > div > ul > li> #pic{
     float:right;
     height:120px;
     width: 100px;
@@ -418,39 +441,39 @@ nav ul li a:hover{
 
 }
 
-#wrap > ul > li:nth-child(2){
+#wrap > div > ul > li:nth-child(2){
 	border-top: none;
 }
 
 
-#wrap > ul > li{
+#wrap > div > ul > li{
 	border: 1px solid white;
 	font-size: 11px;
 	padding:3px;
 }
 
-#wrap > ul > li > .blackbold{
+#wrap > div > ul > li > .blackbold{
 	color:#000;
 	font-weight: bold;
 }
 
-#wrap > ul > li > .bluebold{
+#wrap > div > ul > li > .bluebold{
 	color:#003680;
 	font-weight: bold;
 }
 
-#wrap > ul > li > .graybold{
+#wrap > div > ul > li > .graybold{
 	color:#a2a2a2;
 	font-weight: bold;
 }
 
-#wrap > ul > li > img{
+#wrap > div > ul > li > img{
 	width: 19px;
 	height: 11px;
 	vertical-align: middle;
 }
 
-#wrap > ul > li > .date{
+#wrap > div > ul > li > .date{
 	float:left;
     text-align: right;
     padding-bottom: 5px;
@@ -458,8 +481,25 @@ nav ul li a:hover{
     color:#000;
     font-weight: bold;
 }
+#a{
+    height: 200px;
+    width:500px;
+    background-color: green;
+    float:left;
+}
+#b{
+     height: 50px;
+    width:50px;
+    background-color: red;
+    float:left;
 
-
+}
+#c{
+     height: 50px;
+    width:50px;
+    background-color: yellow;
+    float:left;
+}
 /**********End AdditionalFacts Section******************
 *********************************************************/
 
