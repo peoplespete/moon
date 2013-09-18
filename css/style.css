@@ -159,10 +159,11 @@ height: auto;
 
 #moonarticle > div > article > #readmore {
   text-align: center;
+  margin-bottom: 0px;
 }
 
 #moonarticle > div > article > #readmore > img {
-  vertical-align: center;
+  vertical-align: middle;
 }
 
 /*******************Begin Tab Navigation**************
@@ -250,7 +251,54 @@ height: auto;
 
 /*******************End Tab Navigation**************
 *****************************************************/
+#social {
+  width:150px;
+  display: inline-block;
+  list-style: none;
+  padding-left: 291px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 
+#social > li{
+  display: inline-block;
+  list-style: none;
+}
+
+#facebook {
+  background-color:#eceef5;
+  color: #3b5998;
+  font-size: 12px;
+  font-weight: normal;
+  padding: 3px;
+  border: 1px solid #cacaca;
+  border-radius: 6px
+}
+
+#facebook > img {
+  height: 12px;
+  width: 12px;
+}
+#twitter {
+  color: #333;
+  font-size: 12px;
+  font-weight: bold;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, .5);
+  background-color:#f3f3f3;
+  padding: 3px;
+  border: 1px solid #cacaca;
+  border-radius: 6px
+}
+
+#share {
+  background-color:#fb704f;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: normal;
+  padding: 3px;
+  border: 1px solid #cacaca;
+  border-radius: 6px;
+}
 /*********************End MoonArticle Section****
 *************************************************/
 
